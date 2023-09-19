@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+            <menu id="itens">
+                <ul>
+                    <li><a href="#">Opção 1</a></li>
+                    <li><a href="#">Opção 2</a></li>
+                    <li><a href="#">Opção 3</a></li>
+                    <li><a href="#">Opção 4</a></li>
+                    <li><a href="#">Opção 5</a></li>
+                </ul>
+            </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat sint quaerat distinctio voluptatem voluptatum architecto laboriosam! Quisquam, suscipit quod maiores possimus doloribus accusamus cumque consequuntur labore, velit similique, laudantium quae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, est quod, reprehenderit ducimus eaque obcaecati esse reiciendis nostrum sequi explicabo quidem quos labore nihil aut, debitis exercitationem recusandae repellat velit?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam labore aperiam minus repellendus cumque maxime veritatis, possimus officia consequuntur beatae a quasi placeat recusandae unde autem at amet voluptatum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates consequuntur quisquam unde ab nihil libero voluptatibus voluptatem nesciunt quia earum iste magni sed molestiae corrupti tempora reprehenderit, atque facilis enim!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum placeat impedit quae voluptatem inventore porro repudiandae adipisci magnam consequuntur praesentium, doloremque nostrum excepturi sunt dolores rerum nulla natus recusandae. Impedit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores provident numquam labore quae porro laborum fuga corporis nulla perferendis sapiente nam nemo id quidem illo tempore, suscipit cum earum temporibus.</p>
+        </article>
+
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            }else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
